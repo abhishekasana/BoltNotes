@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#C5CAE9</color>
+    <color name="list_item_text">#333</color>
+    <color name="crimson">#DC143C</color>
+    <color name="red">#f41212</color>
+    <color name="black">#000000</color>
+    <color name="blue">#1033f7</color>
+    <color name="green">#56be3a</color>
+    <color name="purple">#d136c7</color>
+    <color name="myYellow">#f7e810</color>
+    <color name="indian_red">#B0171F</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="white">#FFFFE0</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

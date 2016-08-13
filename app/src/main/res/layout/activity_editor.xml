@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.abhi.boltnotes.EditorActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imagev"
+        android:tag="red"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="colorChange"
+        android:src="@drawable/red"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="colorChange"
+        android:tag="yellow"
+        android:id="@+id/imageView"
+        android:src="@drawable/yello"
+        android:layout_below="@+id/imagev"
+        android:layout_alignStart="@+id/imagev"
+        android:layout_marginBottom="5dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="colorChange"
+        android:tag="blue"
+        android:id="@+id/blue"
+        android:src="@drawable/blue"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="5dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="colorChange"
+        android:tag="purple"
+        android:id="@+id/purple"
+        android:src="@drawable/purple"
+        android:layout_below="@+id/blue"
+        android:layout_alignStart="@+id/blue"
+        android:layout_marginBottom="5dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="colorChange"
+        android:tag="green"
+        android:id="@+id/green"
+        android:src="@drawable/green"
+        android:layout_below="@+id/purple"
+        android:layout_alignStart="@+id/purple"/>
+
+</RelativeLayout>

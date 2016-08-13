@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bolt Notes</string>
+    <string name="create_sample_data">Create sample data</string>
+    <string name="delete_all_motes">Delete all motes</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="all_deleted">All notes Deleted</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="new_note">New Note</string>
+    <string name="note_updated">Note Updated!!</string>
+    <string name="action_delete">Delete</string>
+    <string name="note_deleted">Note Deleted</string>
+    <string name="password">Password</string>
+    <string name="title_activity_changing_password">ChangingPassword</string>
+
+    <string name="title_activity_password_page">PasswordPage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
